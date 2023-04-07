@@ -1,14 +1,14 @@
 name: 'SockBoom Checkin Action'
 
 on:
-  release:
+#  release:
     types: [published]
-  push:
-    branches: [master]
-    #    tags:
-    #      - 'v*'
+#  push:
+#    branches: [master]
+#    #    tags:
+#    #      - 'v*'
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "30 14 * * *"
   watch:
     types: [started]
 
