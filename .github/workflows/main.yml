@@ -3,15 +3,15 @@ name: 'SockBoom Checkin Action'
 on:
 #  release:
 #    types: [published]
-#  push:
-#    branches: [master]
+  push:
+    branches: [master]
 #    #    tags:
 #    #      - 'v*'
   schedule:
 #    - cron: "*/10 * * * *"
     - cron: "30 16 * * *"
-#  watch:
-#    types: [started]
+  watch:
+    types: [started]
 
 jobs:
   checking:
